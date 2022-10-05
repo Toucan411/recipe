@@ -190,14 +190,9 @@ article{
     padding-right: 10px;
 }
 
-
-article p, article ul, article ol{
-    backdrop-filter: blur(10px);
-}
-
-
 #recipe_options ul{
     list-style: none;
+    display: inline-flex;
 }
 
 #recipe_options a{
@@ -249,41 +244,11 @@ figcaption{
 
 .stars {
     color: transparent;
-    display: inline-block;
-    font-size: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: inline-flex;
     }
 
 .recipe_grid {
     background-color: #7ABFBF;
-}
-#threehalfstars {
-    background: linear-gradient(90deg,orangered 70%,black 70%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
-
-#fourstars {
-    background:linear-gradient(90deg,orangered 80%,black 80%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
-
-#fourhalfstars {
-    background:linear-gradient(90deg,orangered 90%,black 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
-
-#fivestars {
-    background:linear-gradient(90deg,orangered 100%,black 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
-
-.rating{
-    visibility: hidden;
 }
 
 footer{
@@ -292,10 +257,6 @@ footer{
   padding-top: 10px;
 }
 
-#chef{
-    mask-image: linear-gradient(to top, transparent 5%, black 95%);
-    -webkit-mask-image: linear-gradient(to top, transparent 2%, black 98%);
-}
 
 h4 {
     text-align: center;
@@ -414,6 +375,7 @@ footer ul>li {
         padding-left: 43px;
         margin-top: -15px;
     }
+    
 
     #Cheese {
         position: relative;
@@ -473,6 +435,12 @@ footer ul>li {
     
     h2{
         padding-top: 30px;
+    }
+    
+
+    #recipe_options ul {
+        display: grid;
+        position: relative;
     }
     
     #story p{
