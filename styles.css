@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
 body{
     width: 414px;
     font-family: verdana, sans-serif;
@@ -6,12 +8,29 @@ body{
     background-color: rgba(122, 191, 191, .5)
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
 #first{
     width: 414px;
-    display: flex;
-    padding-left: 10px;
-    padding-right: 22px;
-    flex-direction: row-reverse;
+    padding-left: 70px;
 }
 
 header h2, header label, header p{
@@ -30,15 +49,37 @@ header h2, header label, header p{
     padding-top: 9px;
 }
 
+
 h1{
-    font-family: 'Dela Gothic One', verdana, sans-serif; 
-    font-size: 3em;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+nav a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+nav span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
 }
 
 #second{
     display: flex;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
+    padding-bottom: -15px;
 }
 
 #search{
@@ -70,6 +111,13 @@ a:visited{
     width: 155px;
 }  
 
+#menu li {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    position: relative;
+    right: 25px;
+}
+
 li{
   font-size:1.25em;
   padding-bottom:15px;
@@ -81,6 +129,12 @@ nav ul li{
   display: inline-flex;
 }
 
+.social {
+    position: relative;
+    top: 95px;
+    left: 35px;
+    color: orangered;
+}
 nav ul li:hover{
   visibility:visible;
   text-align: center;
@@ -142,10 +196,6 @@ article p, article ul, article ol{
     backdrop-filter: blur(10px);
 }
 
-h2{
-   font-family: 'Dela Gothic One', verdana, sans-serif;
-   font-size: 2.15em;
-}
 
 #recipe_options ul{
     list-style: none;
@@ -183,7 +233,8 @@ figure > img{
 }
 
 figcaption{
-    font-size: 1.15em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
     text-align: center;
     background-color: #7ABFBF;
     border-radius: 10px;
@@ -255,6 +306,16 @@ footer ul{
     display: inline-block;
 }
 
+.social li {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
 footer p{
     text-align: center;
     padding-bottom: 20px;
@@ -269,7 +330,6 @@ footer ul>li {
     body {
         width: 768px;
     }
-    
     header{
         width: 768px;
         display: flex;
