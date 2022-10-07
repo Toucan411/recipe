@@ -513,6 +513,8 @@ footer img{
         color: #7abfbf;
     }
     #details dl{
+        position: relative;
+        right: 275px;
         flex-direction: column;
         height: 50px;
     }
