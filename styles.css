@@ -91,10 +91,11 @@ menu li{
     font-family: 'Bebas Neue', cursive;
     display: inline;
     font-size: 20px;
+    color: #000000;
 }
 menu button:hover{
     background-color: #eb5428;
-    color: #ffffff;
+    color: #000000;
 }
 menu button{
     cursor: pointer;
@@ -130,6 +131,11 @@ main nav li a{
     text-decoration: none;
     color: #eb5428;
 }
+
+#sign a {
+    color: #000000;
+}
+
 main nav li a:hover{
     background-color: #eb5428;
     color: #ffffff;
@@ -152,6 +158,7 @@ li img{
 }
 #sign {
     visibility: hidden;
+    color: #000000;
 }
 #sign1 {
     position: relative;
@@ -159,7 +166,9 @@ li img{
     bottom: 370px;
     z-index: 2;
     background-color: #FFFFFF;
+    color:#000000;
 }
+
 #sign1:hover {
     background-color: #eb5428;
 }
@@ -562,6 +571,10 @@ footer img{
     }
     #sign{
         visibility: visible;
+        color:#000000;
+    }
+    [href="#sign"] {
+        color: #000000;
     }
     #sign1 {
         visibility: hidden;
